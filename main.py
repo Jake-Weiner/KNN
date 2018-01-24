@@ -48,7 +48,7 @@ def poll(points_close):
     return category_assigned
 
 def main():
-    trainingSet, testSet = loadDataset(r'C:/Users/weineja/Documents/KNN/iris.data.txt' , 0.66)
+    trainingSet, testSet = loadDataset(r'C:/xxx/Documents/KNN/iris.data.txt' , 0.66)
     df_all = pd.read_csv(r'C:/Users/weineja/Documents/KNN/iris.data.txt',header = None)
     row_count = df_all.shape[0]
     column_count = df_all.shape[1]
